@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatorView">
+        <attr name="pre_drawable" format="reference" />
+        <attr name="post_drawable" format="reference" />
+        <attr name="animated_drawable" format="reference" />
+        <!--<attr name="pre_drawable_color" format="color|reference" />-->
+        <!--<attr name="post_drawable_color" format="color|reference" />-->
+        <!--<attr name="during_process_drawable_color" format="color|reference" />-->
+        <!--<attr name="do_animation" format="boolean" />-->
+        <!--<attr name="animation_block_height" format="dimension" />-->
+        <!--<attr name="animation_block_width" format="dimension" />-->
+
+        <attr name="onCompleted_text" format="string|reference" />
+        <attr name="while_progress_text" format="string|reference" />
+        <attr name="process_title" format="string|reference" />
+        <attr name="onCompleted_text_color" format="color|reference" />
+        <attr name="while_progress_text_color" format="color|reference" />
+        <attr name="process_title_color" format="color|reference" />
+        <attr name="show_progress" format="boolean" />
+        <attr name="progress_prefix" format="string|reference" />
+        <attr name="progress_suffix" format="string|reference" />
+        <attr name="progress_prefix_color" format="color|reference" />
+        <attr name="progress_suffix_color" format="color|reference" />
+        <attr name="current_progress_text_color" format="color|reference" />
+
+
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+        <attr name="progress_unreached_color" format="color|reference" />
+        <attr name="progress_reached_color" format="color|reference" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_reachedtext_rightradius" format="dimension" />
+        <attr name="progress_reachedtext_leftradius" format="dimension" />
+        <attr name="progress_unreachedtext_rightradius" format="dimension" />
+        <attr name="progress_unreachedtext_leftradius" format="dimension" />
+        <attr name="progress_text_offset" format="dimension" />
+
+        <!--<attr name="progress_text_visibility" format="enum">-->
+        <!--<enum name="visible" value="0" />-->
+        <!--<enum name="invisible" value="1" />-->
+        <!--</attr>-->
+
+        <attr name="progressbar_text_margin" format="dimension" />
+
+
+    </declare-styleable>
+</resources>

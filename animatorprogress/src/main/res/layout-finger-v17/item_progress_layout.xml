@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transitions_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <in.blackpaper.animatorprogress.AnimatorTextView
+        android:id="@+id/completed_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+
+    <in.blackpaper.animatorprogress.AnimatorImageView
+        android:id="@+id/action_drawable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/completed_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:padding="20dp" />
+
+    <in.blackpaper.animatorprogress.ProgressReporter
+        android:id="@+id/progress_reporter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/action_drawable"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp" />
+
+    <in.blackpaper.animatorprogress.AnimatorTextView
+        android:id="@+id/while_process_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_reporter"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>
