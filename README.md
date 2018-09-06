@@ -1,8 +1,8 @@
 
 
-# ![](D:\Downloads\reload (1).png)Animator Progress Bar for Android
+# ![](https://github.com/beNitinhere/Animator-progress-bar/blob/master/reload%20(1).png)Animator Progress Bar for Android
 
-[![Preview](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=mcMnOQ4oLgU&feature=youtu.be) 
+[![Preview](https://img.youtube.com/vi/mcMnOQ4oLgU/0.jpg)](https://www.youtube.com/watch?v=mcMnOQ4oLgU&feature=youtu.be) 
 
 
 
@@ -81,13 +81,13 @@ __Additional attributes__
 
 **Preview Screenshots**
 
-![1](D:\Animatorprogreebar\1.png)
+![1](https://github.com/beNitinhere/Animator-progress-bar/blob/master/1.png)
 
 
 
-![2](D:\Animatorprogreebar\2.png)
+![2](https://github.com/beNitinhere/Animator-progress-bar/blob/master/2.png)
 
-![3](D:\Animatorprogreebar\3.png)
+![3](https://github.com/beNitinhere/Animator-progress-bar/blob/master/3.png)
 
 ### License
 
