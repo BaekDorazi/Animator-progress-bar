@@ -4,11 +4,12 @@ import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
-import android.support.v7.widget.AppCompatTextView;
+import android.os.Build;
 import android.text.Html;
 import android.util.AttributeSet;
+import android.widget.TextView;
 
-public class AnimatorTextView extends AppCompatTextView implements OnProgressBarListener {
+public class AnimatorTextView extends TextView implements OnProgressBarListener {
     //onCompleted Text
     private String onCompletedText;
 

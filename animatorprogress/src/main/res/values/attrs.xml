@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="AnimatorView">
-        <attr name="pre_drawable" format="reference" />
-        <attr name="post_drawable" format="reference" />
-        <attr name="animated_drawable" format="reference" />
         <!--<attr name="pre_drawable_color" format="color|reference" />-->
         <!--<attr name="post_drawable_color" format="color|reference" />-->
         <!--<attr name="during_process_drawable_color" format="color|reference" />-->
         <!--<attr name="do_animation" format="boolean" />-->
         <!--<attr name="animation_block_height" format="dimension" />-->
         <!--<attr name="animation_block_width" format="dimension" />-->
+        <attr name="pre_drawable" format="reference" />
+        <attr name="post_drawable" format="reference" />
+        <attr name="animated_drawable" format="reference" />
 
         <attr name="onCompleted_text" format="string|reference" />
         <attr name="while_progress_text" format="string|reference" />

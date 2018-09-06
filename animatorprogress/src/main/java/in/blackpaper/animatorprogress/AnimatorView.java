@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -116,7 +115,7 @@ public class AnimatorView extends RelativeLayout implements OnProgressBarListene
         return mProgressReporter;
     }
 
-    public AppCompatImageView getActionView() {
+    public AnimatorImageView getActionView() {
         return mProcessImageView;
     }
 

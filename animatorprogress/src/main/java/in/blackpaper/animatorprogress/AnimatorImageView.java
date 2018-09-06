@@ -6,9 +6,11 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.util.AttributeSet;
+import android.widget.ImageView;
 
-public class AnimatorImageView extends android.support.v7.widget.AppCompatImageView implements OnProgressBarListener {
+public class AnimatorImageView extends ImageView implements OnProgressBarListener {
     /*
     pre process drawable*/
     private Drawable mPreProcessDrawable;
